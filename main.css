@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    height: 150px;
+    height: 250px;
     width: 400px;
     position: fixed;
     top: 50px;
@@ -44,6 +44,44 @@ h1{
 
 h3{
     font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.flight-container{
+    border-radius: 30px;
+    padding: 10px;
+
+    background-color: #F0F0F3;
+
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.0);
+}
+
+label{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+select{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #F0F0F3;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    --moz-appearance: none;
+    --webkit-appearance: none;
+    appearance: none;
+}
+ select:hover{
+            cursor: pointer;
+}
+
+select:focus{
+    outline: 0;
 }
 
 .classNumber{
